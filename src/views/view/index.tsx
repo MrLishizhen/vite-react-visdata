@@ -1,5 +1,6 @@
 import React, {useEffect, useRef, createElement, FunctionComponent, useState,} from 'react';
 import screenfull from 'screenfull'
+
 interface Istyles {
     width: number
     height: number
@@ -17,26 +18,32 @@ const View: React.FC<{
         top: '50%',
         transformOrigin: 'left top',
         transform: '',
-        width:0,
-        height:0
+        width: 0,
+        height: 0
     })
     const handleScreenAuto = () => {
         if (layout_ref.current) {
-            const height = layout_ref.current && (layout_ref.current.clientHeight - (screenfull.isFullscreen?0:40)) || 0;
-            const width = layout_ref.current && (layout_ref.current.clientWidth - (screenfull.isFullscreen?0:40)) || 0;
+            const height = layout_ref.current && (layout_ref.current.clientHeight - (screenfull.isFullscreen ? 0 : 40)) || 0;
+            const width = layout_ref.current && (layout_ref.current.clientWidth - (screenfull.isFullscreen ? 0 : 40)) || 0;
             //根据屏幕的变化适配的比例
             const scale =
                 (width) / (height) < designDraftWidth / designDraftHeight
                     ? (width) / designDraftWidth
                     : (height) / designDraftHeight;
             //缩放比例
-            setChildCss({...childCss, width:designDraftWidth,height:designDraftHeight,transform: `scale(${scale}) translate(-50%, -50%)`})
+            setChildCss({
+                ...childCss,
+                width: designDraftWidth,
+                height: designDraftHeight,
+                transform: `scale(${scale}) translate(-50%, -50%)`
+            })
         }
 
     }
 
 
     useEffect(() => {
+        //元素宽度修改监听
         const resizeObserver = new ResizeObserver((entries) => {
             entries.forEach((entry) => {
                 // update()
@@ -47,7 +54,6 @@ const View: React.FC<{
             resizeObserver.observe(layout_ref.current);
         }
         return () => {
-
             resizeObserver && resizeObserver.disconnect();
         }
     }, [childDom])
