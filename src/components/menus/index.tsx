@@ -65,7 +65,7 @@ const Menus = () => {
             }
 
         </ul>
-    </div> : ''
+    </div> : <></>
 }
 
 export default Menus

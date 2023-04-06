@@ -14,10 +14,10 @@ const View: React.FC<{
     const {width: designDraftWidth, height: designDraftHeight} = styles;
     const [childCss, setChildCss] = useState({
         position: 'absolute',
-        left: '50%',
-        top: '50%',
+        left: '0',
+        top: '0',
         transformOrigin: 'left top',
-        transform: '',
+        transform: 'scale(0) translate(0, 0)',
         width: 0,
         height: 0
     })
@@ -33,6 +33,8 @@ const View: React.FC<{
             //缩放比例
             setChildCss({
                 ...childCss,
+                left: '50%',
+                top: '50%',
                 width: designDraftWidth,
                 height: designDraftHeight,
                 transform: `scale(${scale}) translate(-50%, -50%)`
@@ -43,6 +45,7 @@ const View: React.FC<{
 
 
     useEffect(() => {
+        handleScreenAuto()
         //元素宽度修改监听
         const resizeObserver = new ResizeObserver((entries) => {
             entries.forEach((entry) => {

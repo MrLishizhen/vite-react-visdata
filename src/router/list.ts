@@ -5,8 +5,8 @@ export const list = [
         element: Home,
         path:'home',
         style: {
-            width: 2560,
-            height: 1600
+            width: 1920,
+            height: 1080
         }
     }
 ]

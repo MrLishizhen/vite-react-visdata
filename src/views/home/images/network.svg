@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="288px" height="46px" viewBox="0 0 288 46" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组 30</title>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#56A0FF" stop-opacity="0.3" offset="0%"></stop>
+            <stop stop-color="#56A0FF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="0%" x2="100%" y2="0%" id="linearGradient-2">
+            <stop stop-color="#56A0FF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#56A0FF" offset="51.2516242%"></stop>
+            <stop stop-color="#56A0FF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="17.0664607%" x2="50%" y2="83.3650905%" id="linearGradient-3">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#80AEFF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="系统运维总览23.3.6" transform="translate(-823.000000, -403.000000)" fill-rule="nonzero">
+            <g id="编组-51" transform="translate(825.000000, 76.000000)">
+                <g id="编组-30" transform="translate(0.000000, 327.000000)">
+                    <g id="编组-82">
+                        <rect id="矩形" fill="url(#linearGradient-1)" transform="translate(146.000000, 22.500243) rotate(-90.000000) translate(-146.000000, -22.500243) " x="126" y="-117.499757" width="40" height="280"></rect>
+                        <path d="M-21.5,22.484492 C-2.06818182,22.5258467 3.04545454,22.5258467 23.5,22.484492" id="路径" stroke="url(#linearGradient-2)" stroke-width="4" transform="translate(1.000000, 22.500000) rotate(-90.000000) translate(-1.000000, -22.500000) "></path>
+                    </g>
+                    <text id="网络" fill="url(#linearGradient-3)" font-family="PingFangSC-Semibold, PingFang SC" font-size="24" font-weight="500">
+                        <tspan x="23.9999999" y="31">网络</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

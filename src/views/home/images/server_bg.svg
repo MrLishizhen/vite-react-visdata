@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="516px" height="269px" viewBox="0 0 516 269" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组 9</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="系统运维总览23.3.6" transform="translate(-825.000000, -121.000000)">
+            <g id="编组-51" transform="translate(825.000000, 76.000000)">
+                <g id="编组-9" transform="translate(0.000000, 45.000000)">
+                    <g id="编组-8">
+                        <path d="M495.792893,0.5 L515.5,20.2071068 L515.5,248.792893 L495.792893,268.5 L20.2071068,268.5 L0.5,248.792893 L0.5,20.2071068 L20.2071068,0.5 L495.792893,0.5 Z" id="形状结合" stroke-opacity="0.300835029" stroke="#81C3FF" fill-opacity="0.300986123" fill="#051021"></path>
+                        <path d="M488.289719,5.5 L507.5,24.7192337 L507.5,244.280766 L488.289719,263.5 L27.71,263.5 L8.5,244.280766 L8.5,24.7192337 L27.7102806,5.5 L488.289719,5.5 Z" id="形状结合" stroke-opacity="0.300835029" stroke="#81C3FF" fill-opacity="0.300986123" fill="#132A4F"></path>
+                        <path d="M8.57252759e-16,255 L14,269 L0,269 L8.57252759e-16,255 Z M516,255 L516,269 L502,269 L516,255 Z M14,0 L1.70530257e-12,14 L1.70530257e-12,0 L14,0 Z M516,0 L516,14 L502,0 L516,0 Z" id="形状结合" fill="#61DBFF"></path>
+                    </g>
+                    <line x1="38" y1="1" x2="199" y2="1" id="直线" stroke="#71FAAC" stroke-linecap="square"></line>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
