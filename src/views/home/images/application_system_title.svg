@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="283px" height="83px" viewBox="0 0 283 83" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组 14</title>
+    <defs>
+        <linearGradient x1="50%" y1="109.599751%" x2="50%" y2="3.55271368e-13%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" stop-opacity="0.495540592" offset="0%"></stop>
+            <stop stop-color="#2798FF" stop-opacity="0.3527943" offset="24.7674689%"></stop>
+            <stop stop-color="#0B254F" stop-opacity="0.352036269" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="100%" x2="50%" y2="3.55271368e-13%" id="linearGradient-2">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#51A1FF" offset="38.5648459%"></stop>
+            <stop stop-color="#0D58AF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="23.9559637%" y1="0%" x2="56.8167815%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#279CF3" stop-opacity="0.801071487" offset="28.4326513%"></stop>
+            <stop stop-color="#1188E3" stop-opacity="0.301916589" offset="100%"></stop>
+        </linearGradient>
+        <radialGradient cx="14.2315378%" cy="50%" fx="14.2315378%" fy="50%" r="201.603774%" gradientTransform="translate(0.142315,0.500000),scale(0.414833,1.000000),translate(-0.142315,-0.500000)" id="radialGradient-4">
+            <stop stop-color="#4574B6" stop-opacity="0.601175802" offset="0%"></stop>
+            <stop stop-color="#4574B6" stop-opacity="0" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="系统运维总览23.3.6" transform="translate(-1400.000000, -485.000000)">
+            <g id="编组-51" transform="translate(825.000000, 76.000000)">
+                <g id="编组-25" transform="translate(571.500000, 385.000000)">
+                    <g id="编组-15" transform="translate(0.500000, 0.000000)">
+                        <g id="编组-85" transform="translate(0.000000, 6.079219)">
+                            <g id="编组-9" stroke-width="1.28054852">
+                                <path d="M11.712038,44.7515398 L11.712038,33.546762 L20.6479443,28.0636878 M103.881961,76.2877128 L103.881961,86.7683711 L94.9460548,91.6918839" id="形状" stroke="#00BBFF" transform="translate(57.797000, 59.877786) rotate(-210.000000) translate(-57.797000, -59.877786) "></path>
+                                <polygon id="多边形" stroke="url(#linearGradient-2)" fill="url(#linearGradient-1)" transform="translate(57.637430, 59.920781) rotate(-210.000000) translate(-57.637430, -59.920781) " points="57.7484645 13.7723736 97.5476056 36.7504185 97.4365709 82.8988258 57.5263951 106.069188 17.727254 83.0911436 17.8382887 36.9427362"></polygon>
+                            </g>
+                            <g id="集群-(1)" transform="translate(28.000000, 28.920781)" fill="url(#linearGradient-3)" fill-rule="nonzero" opacity="0.601897467">
+                                <path d="M13.6093334,27.5333334 L27.2186666,35.4 L27.2186666,51.1333334 L13.6093334,59 L0,51.1333334 L0,35.4 L13.6093334,27.5333334 Z M45.3906666,27.5333334 L59,35.4 L59,51.1333334 L45.3513334,59 L31.742,51.1333334 L31.742,35.4 L45.3906666,27.5333334 Z M13.6093334,32.0566666 L3.93333335,37.6813334 L3.93333335,48.852 L13.6093334,54.4766666 L23.3246666,48.852 L23.3246666,37.6813334 L13.6093334,32.0566666 Z M45.3513334,32.096 L35.6753334,37.6813334 L35.6753334,48.852 L45.3906666,54.4373334 L55.0666666,48.852 L55.0666666,37.6813334 L45.3513334,32.096 Z M13.7666666,36.462 L19.6666666,39.8446666 L19.6666666,46.6886666 L13.7666666,50.0713334 L7.86666665,46.6886666 L7.86666665,39.8446666 L13.7666666,36.462 Z M45.2333334,36.462 L51.1333334,39.8446666 L51.1333334,46.6886666 L45.2333334,50.0713334 L39.3333334,46.6886666 L39.3333334,39.8446666 L45.2333334,36.462 Z M29.5,0 L43.2666666,7.86666665 L43.2666666,23.6 L29.5,31.4666666 L15.7333334,23.6 L15.7333334,7.86666665 L29.5,0 Z M29.5,4.52333335 L19.6666666,10.148 L19.6666666,21.3186666 L29.5,26.9433334 L39.3333334,21.3186666 L39.3333334,10.148 L29.5,4.52333335 Z M29.5,8.92866665 L35.4,12.3113334 L35.4,19.1553334 L29.5,22.538 L23.6,19.1553334 L23.6,12.3113334 L29.5,8.92866665 Z" id="形状结合"></path>
+                            </g>
+                        </g>
+                        <path d="M301.13743,24 L301.13743,106 L103.46643,105.999527 L127.13743,65 L103.46643,23.9995266 L301.13743,24 Z" id="形状结合" fill="url(#radialGradient-4)"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
