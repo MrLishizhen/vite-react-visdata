@@ -1053,7 +1053,7 @@ export const get_level = (data: {
             // fontWeight: i === 1 ? "bold" : "normal",
 
             textStyle: {
-                fontWeight: i === 1 ? "bold" : "normal",
+                // fontWeight: i === 1 ? "bold" : "normal",
                 color: "#fff",
                 fontSize: font[i],
             },

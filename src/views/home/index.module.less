@@ -32,7 +32,23 @@
             width: 535px;
             height: 535px;
             background: url("./images/round.png") no-repeat center center/100%;
-            -webkit-animation: changeright 6s linear infinite;
+            animation: changeright 6s linear infinite;
+        }
+        .title_box {
+            position: absolute;
+            left: 286px;
+            top: 262px;
+            z-index: 10;
+            width: 344px;
+            height: 344px;
+            background: url(./images/platform_bg.svg) no-repeat center
+                center/100%;
+            & > div {
+                height: 50%;
+            }
+            .title_bottom {
+                margin-top: -20px;
+            }
         }
     }
 

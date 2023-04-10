@@ -6,7 +6,7 @@ import {
     get_usage_rate,
     work_order_trends,
     get_safety_option,
-    get_network_option,
+    // get_network_option,
     get_lineBandwidth,
     get_level,
 } from "@/data/echarts_data";
@@ -133,9 +133,37 @@ const Home: React.FC<{ style?: React.CSSProperties }> = ({ style }) => {
         <div className={styles.home} style={style}>
             <div className={styles.map}>
                 <div className={styles.round} />
-                {data.map((u) => {
+                <div className={styles.title_box}>
+                    <div className={styles.title_top}>
+                        <Title
+                            main_title="主机CPU争用"
+                            subtitle="12％"
+                            main_style={{ fontSize: 24, height: "30%" }}
+                            sub_style={{
+                                fontSize: 64,
+                                height: "70%",
+                                lineHeight: "normal",
+                            }}
+                        />
+                    </div>
+                    <div className={styles.title_bottom}>
+                        <Title
+                            main_title="主机CPU争用"
+                            subtitle="12％"
+                            main_style={{ fontSize: 24, width: "60%" }}
+                            sub_style={{
+                                fontSize: 32,
+                                width: "40%",
+                                textAlign: "left",
+                            }}
+                            style={{ flexDirection: "initial" }}
+                        />
+                    </div>
+                </div>
+                {data.map((u, i) => {
                     return (
                         <div
+                            key={i}
                             className={styles.level_bar}
                             style={{ ...u.style }}
                         >
